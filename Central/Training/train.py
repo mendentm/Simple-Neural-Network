@@ -1,5 +1,13 @@
 import torch
-def train_model(model, train_loader, criterion, optimizer, epochs=10, save_path="model_checkpoint.pth", log_file="training_log.txt"):
+def train_model(
+        model, 
+        train_loader, 
+        criterion, 
+        optimizer, 
+        epochs=10, 
+        save_path="model_checkpoint.pth", 
+        log_file="training_log.txt"
+        ):
     # Trains the model, saves the state after training, and logs results to a text file.
     train_losses = []
     train_accuracies = []

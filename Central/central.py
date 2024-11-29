@@ -44,8 +44,9 @@ def main():
         train_losses=train_losses,
         train_accuracies=train_accuracies,
         save_dir="Analyze",
-        file_name = f"training_progress_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.png"
+        file_name = "training_progress_.png"
     )
 
 if __name__ == "__main__":
     main()
+
